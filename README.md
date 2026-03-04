@@ -19,15 +19,6 @@ Mỗi buổi học là một folder `dayXXX/`, bên trong gồm:
 | `mentee.md` | Template để mentee nộp bài                |
 
 
-## Lộ trình
-
-
-| Day | Chủ đề                 |
-| --- | ---------------------- |
-| 001 | HTTP & REST Foundation |
-| ... | *(đang cập nhật)*      |
-
-
 ## Cách học
 
 1. Đọc `dayXXX.md` — hiểu đề bài và yêu cầu
@@ -60,4 +51,11 @@ git push origin day001/johndoe
 - GitHub: [github.com/lppduy](https://github.com/lppduy)
 - Email: [lppduy@gmail.com](mailto:lppduy@gmail.com)
 - LinkedIn: [linkedin.com/in/lppduy](https://www.linkedin.com/in/lppduy/)
+
+## Lộ trình
+
+| Day | Chủ đề | Đề bài |
+| --- | ------ | ------ |
+| 001 | HTTP & REST Foundation | [day001.md](day001/day001.md) |
+| ... | *(đang cập nhật)* | |
 
