@@ -1,6 +1,6 @@
 # Backend Mentoring
 
-Chương trình mentoring backend 1-1, đi từ nền tảng đến thực chiến.
+Repo tự ôn kiến thức backend — đi từ nền tảng đến thực chiến.
 
 ## Mục tiêu
 
@@ -33,6 +33,25 @@ Mỗi buổi học là một folder `dayXXX/`, bên trong gồm:
 1. Đọc `dayXXX.md` — hiểu đề bài và yêu cầu
 2. Tự research và trả lời vào `mentee.md`
 3. Review cùng mentor hoặc AI, nhận feedback
+
+### Muốn submit để mọi người cùng review?
+
+1. **Fork** repo này về GitHub cá nhân
+2. **Clone** repo đã fork về máy
+3. Tạo branch mới theo format: `dayXXX/<github-username>`
+4. Làm bài trong `mentee.md`
+5. Commit, push lên fork
+6. Tạo **Pull Request** về repo gốc
+
+```bash
+# Ví dụ cho Day001 (GitHub username: johndoe)
+git checkout -b day001/johndoe
+# ... làm bài trong day001/mentee.md ...
+git add .
+git commit -m "day001: answer questions and design API"
+git push origin day001/johndoe
+# → Tạo Pull Request trên GitHub
+```
 
 ## Author
 
